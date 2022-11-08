@@ -9,7 +9,7 @@
     <body>
         <div id="findNumType">
             <input type="number" id="numTypeInput" value="0">
-            <input type="submit" value="Check Number Type" onclick="findNumberType()">
+            <input type="button" value="Check Number Type" onclick="findNumberType()">
             <div id="numTypeRes"></div>
         </div>
         <div id="sumOfPositive">
@@ -21,6 +21,11 @@
             <input id="fibonacciInput" type="text" value="0">
             <input type="button" value="Get Fibonacci Sequence upto requested number" onclick="fibonacci(0,0,1)">
             <span id="fibonacciRes"></span>
+        </div>
+        <div id="counter">
+            <input type="button" value="Reset" onclick="reset()">
+            <span id="count"></span>
+            <input type="button" value="Add" onclick="counter()">
         </div>
     </body>
     <script src="./js/main.js"></script>

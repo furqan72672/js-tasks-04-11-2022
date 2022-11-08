@@ -22,6 +22,7 @@ function sumOfPositive(){
 }
 
 
+
 let arr1=[]
 function fibonacci(i,j,x){
     if(x) arr1=[]
@@ -54,3 +55,16 @@ function fibonacci(i,j,x){
     document.getElementById("fibonacciRes").innerHTML=arr1
 }
 // 0 1 1 2 3 5 8 13 21 34 55 
+
+
+
+document.getElementById("count").innerHTML=0
+function counter(){
+    let num=document.getElementById("count").innerHTML
+    num=parseInt(num)
+    num++
+    document.getElementById("count").innerHTML=num
+}
+function reset(){
+    document.getElementById("count").innerHTML=0
+}
